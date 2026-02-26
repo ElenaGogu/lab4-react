@@ -14,3 +14,5 @@
    - **Buton "Imaginea Anterioară":** Să permită navigarea la imaginea anterioară din listă.
    - **Buton "Imagine Aleatoare":** Să permită selectarea unei imagini aleatorii din listă.
    - **Buton "Aranjare Aleatoare":** Să permită rearanjarea aleatoare a listei de imagini.
+
+Link la exemplu de proiect: [Galerie Miau-Miau](https://lab4-react-pfri2s33d-cristi-usms-projects.vercel.app/)
