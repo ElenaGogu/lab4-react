@@ -1,5 +1,14 @@
-function App() {
-    return <></>;
-}
+import GalerieNature from "./Components/GalerieNature/GalerieNature"
+import imaginiNatura from "./data/images.json"
 
-export default App;
+function App() {
+  return (
+    <div>
+      <GalerieNature
+        imagini={imaginiNatura} 
+        titlu="Galerie de Natură" 
+      />
+    </div>
+  )
+}
+export default App

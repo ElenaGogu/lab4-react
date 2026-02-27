@@ -1,0 +1,70 @@
+.galerie {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.pozaMare {
+  width: 100%;
+  height: 450px;
+  border: 4px double #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.pozaMare img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.btnNav {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnNav img {
+  width: 20px;
+  height: 20px;
+}
+
+.imaginiMiciContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.imagineMica {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 3px solid transparent; 
+}
+
+.imagineMica.activa {
+  border-color: #3498db;
+}
+
+.imagineMica:hover {
+  border-color: #eee;
+}
